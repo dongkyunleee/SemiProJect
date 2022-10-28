@@ -1,6 +1,6 @@
 import axios from "axios";
 const HEADER = 'application/json';
-const TEAM_DOMAIN = "http://localhost:8090/ISOUR/";
+const TEAM_DOMAIN = "http://localhost:8090/Kh_mini_ex/";
 
 
 

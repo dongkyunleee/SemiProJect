@@ -26,7 +26,7 @@ public class MemberDAO {
 
 			conn = Common.getConnection();
 			stmt = conn.createStatement(); // Statement 객체 얻기
-			String sql = "SELECT * FROM I_MEMBER WHERE ID = " + "'" + id + "'";
+			String sql = "SELECT * FROM T_MEMBER WHERE ID = " + "'" + id + "'";
 			rs = stmt.executeQuery(sql);
 
 			while(rs.next()) { // 읽은 데이타가 있으면 true

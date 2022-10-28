@@ -45,6 +45,7 @@ public class MemberCheck extends HttpServlet {
         else resJson.put("result", "가입체크 NOK");
         out.print(resJson);	
 	}
+	
 }
 
 

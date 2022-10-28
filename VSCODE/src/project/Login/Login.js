@@ -40,7 +40,8 @@ function Login() {
     }        
   }
 
-  const onClickLogin = async() => {
+  const onClickLogin = async(e) => {
+    e.preventDefault();
     console.log("로그인버튼 눌렀음");
 
     try {

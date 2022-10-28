@@ -17,7 +17,7 @@ public class Common {
 	// 오라클 설정 정보 (JDBC 연결)
 	final static String ORACLE_URL = "jdbc:oracle:thin:@localhost:1521:xe";
 	final static String ORACLE_ID = "ISOUR";
-	final static String ORACLE_PW = "ULTRA";
+	final static String ORACLE_PW = "ISOUR";
 	final static String ORACLE_DRV = "oracle.jdbc.driver.OracleDriver";
 	
 	public static Connection getConnection() {
